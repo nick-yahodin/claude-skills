@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Campo en venta en Colonia",
+    "price": "USD 450,000",
+    "location": "Colonia del Sacramento, Colonia",
+    "area": "12 hectáreas",
+    "url": "https://example.com/gallito/1",
+    "source": "Gallito"
+  },
+  {
+    "title": "Terreno en Montevideo, zona residencial",
+    "price": "USD 95,000",
+    "location": "Carrasco, Montevideo",
+    "area": "800 m2",
+    "url": "https://example.com/gallito/2",
+    "source": "Gallito"
+  }
+]

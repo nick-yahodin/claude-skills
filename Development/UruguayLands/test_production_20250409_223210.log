@@ -1,0 +1,92 @@
+2025-04-09 22:32:10,932 - ProductionTest - INFO - Запуск теста производственного цикла
+2025-04-09 22:32:10,932 - app.listing_manager - INFO - Загружено 7 ID виденных объявлений из test_production_seen.json
+2025-04-09 22:32:10,932 - ProductionTest - INFO - STEP: init_parser - Инициализация парсера MercadoLibre
+2025-04-09 22:32:10,932 - parsers.mercadolibre - INFO - Инициализация парсера. Session ID: 856044bc
+2025-04-09 22:32:10,933 - parsers.mercadolibre - INFO - Загружено 6 User-Agent из config/user_agents.txt
+2025-04-09 22:32:10,933 - ProductionTest - INFO - STEP: run_parser - Запуск парсера и сбор данных с сайта
+2025-04-09 22:32:10,933 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:32:10,934 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:32:10,935 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_084e19e20b
+2025-04-09 22:32:11,188 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:32:11,756 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:32:11,756 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:32:11,756 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:32:11,756 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:32:12,080 - ProductionTest - INFO - STEP: run_parser - Запуск парсера с max_pages=1
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - --- Запуск парсера mercadolibre (макс. страниц: 1, headless: False) ---
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:32:12,080 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_56f881b4da
+2025-04-09 22:32:12,188 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:32:12,390 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:32:12,390 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:32:12,390 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:32:12,390 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:32:12,706 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:32:12,706 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:32:12,742 - app.parsers.mercadolibre - INFO - Проверка IP через https://httpbin.org/ip...
+2025-04-09 22:32:12,769 - app.parsers.mercadolibre - WARNING - Ошибка при проверке IP через https://httpbin.org/ip: Page.goto: net::ERR_ABORTED at https://httpbin.org/ip
+Call log:
+  - navigating to "https://httpbin.org/ip", waiting until "domcontentloaded"
+
+2025-04-09 22:32:12,772 - app.parsers.mercadolibre - INFO - Обработка страницы 1/1 - https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:32:12,809 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:32:16,257 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: blocked
+2025-04-09 22:32:16,257 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:32:16,298 - app.parsers.mercadolibre - INFO - CAPTCHA успешно решена
+2025-04-09 22:32:16,323 - app.parsers.mercadolibre - INFO - Страница https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta// успешно загружена.
+2025-04-09 22:32:17,466 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот списка: errors/list_debug_20250409_223216.png
+2025-04-09 22:32:17,492 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы списка: errors/list_html_20250409_223217.html
+2025-04-09 22:32:17,508 - app.parsers.mercadolibre - INFO - Попытка 1/3: Найдено 48 карточек по основному селектору 'li.ui-search-layout__item'
+2025-04-09 22:32:17,549 - app.parsers.mercadolibre - INFO - Достигнут лимит в 1 карточку для теста. Прерывание обработки карточек на этой странице.
+2025-04-09 22:32:17,549 - app.parsers.mercadolibre - INFO - Обработка карточек завершена. Всего: 48, успешно: 1, пропущено: 0, ошибок: 0
+2025-04-09 22:32:17,549 - app.parsers.mercadolibre - INFO - Извлечено 1 новых уникальных объектов Listing со страницы 1.
+2025-04-09 22:32:17,549 - app.parsers.mercadolibre - INFO - Найдено 1 объявлений на странице 1
+2025-04-09 22:32:21,213 - app.parsers.mercadolibre - INFO - Достигнут лимит страниц (1). Завершение парсинга.
+2025-04-09 22:32:21,214 - app.parsers.mercadolibre - INFO - Обработка деталей отключена. Возвращаем только найденные URL.
+2025-04-09 22:32:21,229 - app.parsers.mercadolibre - INFO - Контекст браузера закрыт.
+2025-04-09 22:32:21,311 - app.parsers.mercadolibre - INFO - Браузер закрыт.
+2025-04-09 22:32:21,316 - app.parsers.mercadolibre - INFO - Playwright остановлен.
+2025-04-09 22:32:21,316 - app.parsers.mercadolibre - INFO - --- Парсер mercadolibre завершен за 0:00:09.236542 ---
+2025-04-09 22:32:21,316 - app.parsers.mercadolibre - INFO - Статистика: Обработано страниц=1, Найдено/Обработано объявлений=1, Ошибок=0
+2025-04-09 22:32:21,316 - ProductionTest - INFO - STEP: run_parser - Найдено 1 объявлений
+2025-04-09 22:32:21,316 - ProductionTest - INFO - STEP: close_parser - Закрытие ресурсов парсера
+2025-04-09 22:32:23,318 - ProductionTest - INFO - STEP: process_listings - Обработка 1 объявлений
+2025-04-09 22:32:23,323 - app.listing_manager - INFO - Сохранено 8 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:32:23,323 - ProductionTest - INFO - STEP: save_results - Сохранение промежуточных результатов
+2025-04-09 22:32:23,324 - app.listing_manager - INFO - Сохранено 8 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:32:23,324 - ProductionTest - INFO - STEP: send_telegram - Отправка 1 объявлений в Telegram
+2025-04-09 22:32:23,324 - ProductionTest - INFO - Отправка в Telegram 1/1: https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb-fb83-4094-8486-442890ea28ef
+2025-04-09 22:32:23,324 - ProductionTest - INFO - Стратегия 1: Асинхронная отправка через python-telegram-bot
+2025-04-09 22:32:23,325 - app.telegram_poster - INFO - Подготовка к отправке в Telegram: https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb-fb83-4094-8486-442890ea28ef
+2025-04-09 22:32:23,325 - app.telegram_poster - WARNING - Обнаружен неправильный URL MercadoLibre: https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb-fb83-4094-8486-442890ea28ef
+2025-04-09 22:32:23,325 - app.telegram_poster - INFO - URL исправлен на: https://articulo.mercadolibre.com.uy/MLU-707739404-
+2025-04-09 22:32:23,325 - app.telegram_poster - INFO - Изображение отсутствует, используем дефолтное изображение
+2025-04-09 22:32:23,325 - app.telegram_poster - WARNING - Дефолтное изображение не найдено по пути: /Users/nick/Development/UruguayLands/assets/default_property.jpg
+2025-04-09 22:32:23,351 - app.telegram_poster - INFO - Отправка объявления с изображением: 707739404 Barrio Abierto Ruta Los Ceibos _jm#polycard_client=search Nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb Fb83 4094 8486 442890ea28ef
+2025-04-09 22:32:23,351 - app.telegram_poster - WARNING - Ошибка при попытке отправки #1: 'InputFile' object has no attribute 'file'
+2025-04-09 22:32:23,351 - app.telegram_poster - INFO - Повторная попытка #2 отправки в Telegram...
+2025-04-09 22:32:25,353 - app.telegram_poster - INFO - Отправка объявления с изображением: 707739404 Barrio Abierto Ruta Los Ceibos _jm#polycard_client=search Nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb Fb83 4094 8486 442890ea28ef
+2025-04-09 22:32:25,354 - app.telegram_poster - WARNING - Ошибка при попытке отправки #2: 'InputFile' object has no attribute 'file'
+2025-04-09 22:32:25,354 - app.telegram_poster - INFO - Повторная попытка #3 отправки в Telegram...
+2025-04-09 22:32:27,356 - app.telegram_poster - INFO - Отправка объявления с изображением: 707739404 Barrio Abierto Ruta Los Ceibos _jm#polycard_client=search Nordic&position=3&search_layout=grid&type=item&tracking_id=9fa703eb Fb83 4094 8486 442890ea28ef
+2025-04-09 22:32:27,356 - app.telegram_poster - WARNING - Ошибка при попытке отправки #3: 'InputFile' object has no attribute 'file'
+2025-04-09 22:32:27,356 - ProductionTest - ERROR - ERROR in telegram_strategy_1: Ошибка при отправке
+2025-04-09 22:32:29,358 - ProductionTest - INFO - Стратегия 2: Синхронная отправка через requests
+2025-04-09 22:32:29,358 - app.telegram_poster - INFO - [SYNC SEND] Подготовка к синхронной отправке: https://articulo.mercadolibre.com.uy/MLU-707739404-
+2025-04-09 22:32:29,968 - app.telegram_poster - INFO - [SYNC SEND] Сообщение успешно отправлено через requests: https://articulo.mercadolibre.com.uy/MLU-707739404-
+2025-04-09 22:32:29,968 - ProductionTest - INFO - STEP: telegram_strategy_2 - Успешно отправлено 1/1
+2025-04-09 22:32:29,968 - ProductionTest - INFO - STEP: send_telegram - Всего успешно отправлено: 1/1
+2025-04-09 22:32:29,968 - ProductionTest - INFO - STEP: final_report - Формирование итогового отчета
+2025-04-09 22:32:29,968 - ProductionTest - INFO - Итоговый отчет сохранен: test_results/production_report_20250409_223229.json
+2025-04-09 22:32:29,968 - ProductionTest - INFO - === СВОДКА ТЕСТИРОВАНИЯ ===
+2025-04-09 22:32:29,968 - ProductionTest - INFO - Найдено объявлений: 1
+2025-04-09 22:32:29,968 - ProductionTest - INFO - Обработано объявлений: 1
+2025-04-09 22:32:29,968 - ProductionTest - INFO - Обнаружено обычных изображений: 0
+2025-04-09 22:32:29,969 - ProductionTest - INFO - Обнаружено Base64-изображений: 0
+2025-04-09 22:32:29,969 - ProductionTest - INFO - Отправлено в Telegram: 1
+2025-04-09 22:32:29,969 - ProductionTest - INFO - Ошибок: 1
+2025-04-09 22:32:29,969 - ProductionTest - INFO - Статус: С ошибками
+2025-04-09 22:32:29,970 - ProductionTest - INFO - Тест завершен

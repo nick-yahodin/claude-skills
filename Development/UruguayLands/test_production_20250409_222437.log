@@ -1,0 +1,133 @@
+2025-04-09 22:24:37,712 - ProductionTest - INFO - Запуск теста производственного цикла
+2025-04-09 22:24:37,713 - app.listing_manager - INFO - Загружено 4 ID виденных объявлений из test_production_seen.json
+2025-04-09 22:24:37,713 - ProductionTest - INFO - STEP: init_parser - Инициализация парсера MercadoLibre
+2025-04-09 22:24:37,713 - parsers.mercadolibre - INFO - Инициализация парсера. Session ID: ad3ddafa
+2025-04-09 22:24:37,713 - parsers.mercadolibre - INFO - Загружено 6 User-Agent из config/user_agents.txt
+2025-04-09 22:24:37,713 - ProductionTest - INFO - STEP: run_parser - Запуск парсера и сбор данных с сайта
+2025-04-09 22:24:37,713 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:24:37,715 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:24:37,715 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_02118771b2
+2025-04-09 22:24:37,937 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:24:38,523 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:24:38,523 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:24:38,523 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:24:38,523 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:24:38,889 - ProductionTest - INFO - STEP: run_parser - Запуск парсера с max_pages=2
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - --- Запуск парсера mercadolibre (макс. страниц: 2, headless: False) ---
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:24:38,889 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_56b5b4f1f0
+2025-04-09 22:24:39,011 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:24:39,275 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:24:39,275 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:24:39,275 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:24:39,275 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:24:39,564 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:24:39,564 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:24:39,620 - app.parsers.mercadolibre - INFO - Проверка IP через https://httpbin.org/ip...
+2025-04-09 22:24:41,195 - app.parsers.mercadolibre - INFO - Текущий внешний IP (через прокси/прямой): 170.238.84.156
+2025-04-09 22:24:41,198 - app.parsers.mercadolibre - INFO - Обработка страницы 1/2 - https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:24:41,229 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:24:46,877 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: blocked
+2025-04-09 22:24:46,877 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:24:46,919 - app.parsers.mercadolibre - INFO - CAPTCHA успешно решена
+2025-04-09 22:24:46,941 - app.parsers.mercadolibre - INFO - Страница https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta// успешно загружена.
+2025-04-09 22:24:48,878 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот списка: errors/list_debug_20250409_222446.png
+2025-04-09 22:24:48,901 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы списка: errors/list_html_20250409_222448.html
+2025-04-09 22:24:48,918 - app.parsers.mercadolibre - INFO - Попытка 1/3: Найдено 48 карточек по основному селектору 'li.ui-search-layout__item'
+2025-04-09 22:24:48,951 - app.parsers.mercadolibre - INFO - Достигнут лимит в 1 карточку для теста. Прерывание обработки карточек на этой странице.
+2025-04-09 22:24:48,951 - app.parsers.mercadolibre - INFO - Обработка карточек завершена. Всего: 48, успешно: 1, пропущено: 0, ошибок: 0
+2025-04-09 22:24:48,951 - app.parsers.mercadolibre - INFO - Извлечено 1 новых уникальных объектов Listing со страницы 1.
+2025-04-09 22:24:48,951 - app.parsers.mercadolibre - INFO - Найдено 1 объявлений на странице 1
+2025-04-09 22:24:52,930 - app.parsers.mercadolibre - INFO - Обработка страницы 2/2 - https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//_Desde_49_OrderId_PRICE
+2025-04-09 22:24:52,979 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//_Desde_49_OrderId_PRICE
+2025-04-09 22:24:57,104 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: blocked
+2025-04-09 22:24:57,105 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:24:57,140 - app.parsers.mercadolibre - INFO - CAPTCHA успешно решена
+2025-04-09 22:24:57,161 - app.parsers.mercadolibre - INFO - Страница https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//_Desde_49_OrderId_PRICE успешно загружена.
+2025-04-09 22:24:59,819 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот списка: errors/list_debug_20250409_222457.png
+2025-04-09 22:24:59,846 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы списка: errors/list_html_20250409_222459.html
+2025-04-09 22:24:59,864 - app.parsers.mercadolibre - INFO - Попытка 1/3: Найдено 48 карточек по основному селектору 'li.ui-search-layout__item'
+2025-04-09 22:24:59,899 - app.parsers.mercadolibre - INFO - Достигнут лимит в 1 карточку для теста. Прерывание обработки карточек на этой странице.
+2025-04-09 22:24:59,899 - app.parsers.mercadolibre - INFO - Обработка карточек завершена. Всего: 48, успешно: 1, пропущено: 0, ошибок: 0
+2025-04-09 22:24:59,899 - app.parsers.mercadolibre - INFO - Извлечено 1 новых уникальных объектов Listing со страницы 2.
+2025-04-09 22:24:59,899 - app.parsers.mercadolibre - INFO - Найдено 1 объявлений на странице 2
+2025-04-09 22:25:02,949 - app.parsers.mercadolibre - INFO - Достигнут лимит страниц (2). Завершение парсинга.
+2025-04-09 22:25:02,949 - app.parsers.mercadolibre - INFO - Начинаем обработку деталей для 2 найденных URL...
+2025-04-09 22:25:02,949 - app.parsers.mercadolibre - INFO - Обработка деталей (1/2): https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e
+2025-04-09 22:25:02,994 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e
+2025-04-09 22:25:07,321 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: recaptcha
+2025-04-09 22:25:07,321 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:25:07,333 - app.recaptcha_solver - INFO - Обнаружена видимая reCAPTCHA
+2025-04-09 22:25:07,337 - app.recaptcha_solver - INFO - Обнаружена CAPTCHA типа recaptcha версии v2
+2025-04-09 22:25:07,337 - app.recaptcha_solver - ERROR - Отсутствует sitekey для решения reCAPTCHA
+2025-04-09 22:25:07,337 - app.recaptcha_solver - ERROR - Не удалось получить токен решения CAPTCHA
+2025-04-09 22:25:07,337 - app.parsers.mercadolibre - WARNING - Не удалось решить CAPTCHA
+2025-04-09 22:25:07,337 - app.parsers.mercadolibre - INFO - Страница https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e успешно загружена.
+2025-04-09 22:25:07,337 - app.parsers.mercadolibre - INFO - Начинаем парсинг деталей для: https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e
+2025-04-09 22:25:07,337 - app.parsers.mercadolibre - INFO - URL преобразован на articulo: https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e
+2025-04-09 22:25:18,076 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот: errors/debug_extract_data_20250409_222517.png
+2025-04-09 22:25:18,096 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы для отладки: errors/debug_page_20250409_222518.html
+2025-04-09 22:25:18,100 - app.parsers.mercadolibre - WARNING - Ошибка при извлечении данных через JavaScript: Page.evaluate: SyntaxError: Unexpected identifier 'not'
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:234:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - Итоговые данные для https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e:
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - - Заголовок: 707739404 Barrio Abierto Ruta Los Ceibos _jm#polycard_client=search Nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00 B3ae 4a5d A576 04da6e68f20e
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - - Цена: US$ 29.900
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - - Локация: Desde Mercado Libre, nunca te pediremos contraseñas, PIN o códigos de verificación a través de WhatsApp, teléfono, SMS o email.
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - - Площадь: 1.076 m²
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - - Фото: https://http2.mlstatic.com/D_NQ_NP_845364-MLU82007106867_012025-F.webp
+2025-04-09 22:25:18,139 - app.parsers.mercadolibre - INFO - Детали для https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=8a5d5c00-b3ae-4a5d-a576-04da6e68f20e успешно извлечены и объект обновлен.
+2025-04-09 22:25:21,354 - app.parsers.mercadolibre - INFO - Обработка деталей (2/2): https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0
+2025-04-09 22:25:21,414 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0
+2025-04-09 22:25:23,792 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: recaptcha
+2025-04-09 22:25:23,793 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:25:23,803 - app.recaptcha_solver - INFO - Обнаружена видимая reCAPTCHA
+2025-04-09 22:25:23,808 - app.recaptcha_solver - INFO - Обнаружена CAPTCHA типа recaptcha версии v2
+2025-04-09 22:25:23,808 - app.recaptcha_solver - ERROR - Отсутствует sitekey для решения reCAPTCHA
+2025-04-09 22:25:23,808 - app.recaptcha_solver - ERROR - Не удалось получить токен решения CAPTCHA
+2025-04-09 22:25:23,808 - app.parsers.mercadolibre - WARNING - Не удалось решить CAPTCHA
+2025-04-09 22:25:23,808 - app.parsers.mercadolibre - INFO - Страница https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0 успешно загружена.
+2025-04-09 22:25:23,808 - app.parsers.mercadolibre - INFO - Начинаем парсинг деталей для: https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0
+2025-04-09 22:25:23,808 - app.parsers.mercadolibre - INFO - URL преобразован на articulo: https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0
+2025-04-09 22:25:30,005 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот: errors/debug_extract_data_20250409_222529.png
+2025-04-09 22:25:30,027 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы для отладки: errors/debug_page_20250409_222530.html
+2025-04-09 22:25:30,029 - app.parsers.mercadolibre - WARNING - Ошибка при извлечении данных через JavaScript: Page.evaluate: SyntaxError: Unexpected identifier 'not'
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:234:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - Итоговые данные для https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0:
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - - Заголовок: 707739404 Barrio Abierto Ruta Los Ceibos _jm#polycard_client=search Nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7 C8f5 4f24 90ea 09b4369d6ce0
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - - Цена: US$ 29.900
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - - Локация: Desde Mercado Libre, nunca te pediremos contraseñas, PIN o códigos de verificación a través de WhatsApp, teléfono, SMS o email.
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - - Площадь: 1.076 m²
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - - Фото: https://http2.mlstatic.com/D_NQ_NP_845364-MLU82007106867_012025-F.webp
+2025-04-09 22:25:30,068 - app.parsers.mercadolibre - INFO - Детали для https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=1&search_layout=grid&type=item&tracking_id=2dd0d8a7-c8f5-4f24-90ea-09b4369d6ce0 успешно извлечены и объект обновлен.
+2025-04-09 22:25:36,614 - app.parsers.mercadolibre - INFO - Завершена обработка деталей. Успешно обработано: 2/2
+2025-04-09 22:25:36,626 - app.parsers.mercadolibre - INFO - Контекст браузера закрыт.
+2025-04-09 22:25:36,699 - app.parsers.mercadolibre - INFO - Браузер закрыт.
+2025-04-09 22:25:36,705 - app.parsers.mercadolibre - INFO - Playwright остановлен.
+2025-04-09 22:25:36,705 - app.parsers.mercadolibre - INFO - --- Парсер mercadolibre завершен за 0:00:57.816217 ---
+2025-04-09 22:25:36,705 - app.parsers.mercadolibre - INFO - Статистика: Обработано страниц=2, Найдено/Обработано объявлений=2, Ошибок=0
+2025-04-09 22:25:36,705 - ProductionTest - INFO - STEP: run_parser - Найдено 2 объявлений
+2025-04-09 22:25:36,705 - ProductionTest - INFO - STEP: close_parser - Закрытие ресурсов парсера
+2025-04-09 22:25:38,705 - ProductionTest - INFO - STEP: process_listings - Обработка 2 объявлений
+2025-04-09 22:25:38,711 - app.listing_manager - INFO - Сохранено 5 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:25:38,711 - app.listing_manager - INFO - Сохранено 6 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:25:38,711 - ProductionTest - INFO - STEP: save_results - Сохранение промежуточных результатов
+2025-04-09 22:25:38,711 - app.listing_manager - INFO - Сохранено 6 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:25:38,712 - ProductionTest - INFO - STEP: send_telegram - Отправка в Telegram отключена в конфигурации
+2025-04-09 22:25:38,712 - ProductionTest - INFO - STEP: final_report - Формирование итогового отчета
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Итоговый отчет сохранен: test_results/production_report_20250409_222538.json
+2025-04-09 22:25:38,712 - ProductionTest - INFO - === СВОДКА ТЕСТИРОВАНИЯ ===
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Найдено объявлений: 2
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Обработано объявлений: 2
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Обнаружено обычных изображений: 2
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Обнаружено Base64-изображений: 0
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Отправлено в Telegram: 0
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Ошибок: 0
+2025-04-09 22:25:38,712 - ProductionTest - INFO - Статус: Успешно
+2025-04-09 22:25:38,713 - ProductionTest - INFO - Тест завершен

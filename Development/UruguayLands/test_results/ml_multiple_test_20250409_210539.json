@@ -1,0 +1,73 @@
+{
+  "timestamp": "20250409_210539",
+  "total": 5,
+  "parse_success": 5,
+  "send_success": 5,
+  "results": [
+    {
+      "url": "https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM",
+      "parse_success": true,
+      "send_success": true,
+      "data": {
+        "title": "Fraccionamiento Los Ceibos",
+        "price": "US$ 29.900",
+        "location": "Emprendimientos, Colonia, Colonia del Sacramento",
+        "area": "450 m² a 1076 m²",
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_845364-MLU82007106867_012025-O.webp"
+      },
+      "error": null
+    },
+    {
+      "url": "https://terreno.mercadolibre.com.uy/MLU-711061152-venta-terreno-parque-del-plata-sur-_JM",
+      "parse_success": true,
+      "send_success": true,
+      "data": {
+        "title": "Venta Terreno Parque Del Plata Sur",
+        "price": "US$ 80.000",
+        "location": "Propiedades Individuales, Canelones, Parque del Plata",
+        "area": null,
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_898806-MLU82366559957_022025-O.webp"
+      },
+      "error": null
+    },
+    {
+      "url": "https://terreno.mercadolibre.com.uy/MLU-651809827-terreno-en-venta-_JM",
+      "parse_success": true,
+      "send_success": true,
+      "data": {
+        "title": null,
+        "price": null,
+        "location": "Uruguay",
+        "area": null,
+        "image_url": "https://http2.mlstatic.com/D_NQ_907534-MLA83135822058_032025-OO.webp"
+      },
+      "error": null
+    },
+    {
+      "url": "https://terreno.mercadolibre.com.uy/MLU-682376110-importante-terreno-en-esquina-_JM",
+      "parse_success": true,
+      "send_success": true,
+      "data": {
+        "title": null,
+        "price": null,
+        "location": "Importante Esquina",
+        "area": null,
+        "image_url": "https://http2.mlstatic.com/D_NQ_907534-MLA83135822058_032025-OO.webp"
+      },
+      "error": null
+    },
+    {
+      "url": "https://terreno.mercadolibre.com.uy/MLU-609371683-venta-terreno-costa-de-oro-_JM",
+      "parse_success": true,
+      "send_success": true,
+      "data": {
+        "title": null,
+        "price": null,
+        "location": "Costa",
+        "area": null,
+        "image_url": "https://http2.mlstatic.com/D_NQ_907534-MLA83135822058_032025-OO.webp"
+      },
+      "error": null
+    }
+  ]
+}

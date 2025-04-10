@@ -1,0 +1,92 @@
+{
+  "timestamp": "2025-04-09T21:52:42.205465",
+  "total_urls": 3,
+  "success_count": 3,
+  "base64_images": [],
+  "results": [
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-688357290-venta-terreno-punta-del-este-braglia-1691-_JM",
+      "success": true,
+      "data": {
+        "id": null,
+        "title": "Venta Terreno Punta Del Este Braglia 1691",
+        "price": "US$ 65",
+        "location": "Venta, Propiedades Individuales, Maldonado, El Tesoro",
+        "area": null,
+        "url": "https://articulo.mercadolibre.com.uy/MLU-688357290-venta-terreno-punta-del-este-braglia-1691-_JM",
+        "source": "mercadolibre",
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_733670-MLU76819400710_062024-F.webp",
+        "description": null,
+        "date_published": null,
+        "date_scraped": "2025-04-09T21:52:25.801057",
+        "attributes": null,
+        "coordinates": null,
+        "posted_date": null,
+        "deal_type": "Продажа",
+        "utilities": "Не указано",
+        "hashtags": [
+          "#TestCycle",
+          "#Uruguay",
+          "#MercadoLibre",
+          "#Base64Test"
+        ]
+      }
+    },
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-747239401-venta-terreno-100000-m2-excelente-para-inversion-_JM",
+      "success": true,
+      "data": {
+        "id": null,
+        "title": "Venta terreno 100000 m2 excelente para inversion",
+        "price": "US$ 1.690.000",
+        "location": "Uruguay",
+        "area": "550 m² totales o menos",
+        "url": "https://articulo.mercadolibre.com.uy/MLU-747239401-venta-terreno-100000-m2-excelente-para-inversion-_JM",
+        "source": "mercadolibre",
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_955342-MLU83527159673_042025-UC.webp",
+        "description": null,
+        "date_published": null,
+        "date_scraped": "2025-04-09T21:52:32.214886",
+        "attributes": null,
+        "coordinates": null,
+        "posted_date": null,
+        "deal_type": "Продажа",
+        "utilities": "Не указано",
+        "hashtags": [
+          "#TestCycle",
+          "#Uruguay",
+          "#MercadoLibre",
+          "#Base64Test"
+        ]
+      }
+    },
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM",
+      "success": true,
+      "data": {
+        "id": null,
+        "title": "Fraccionamiento Los Ceibos",
+        "price": "US$ 29.900",
+        "location": "Venta, Emprendimientos, Colonia, Colonia del Sacramento",
+        "area": "450 m² a 1076 m²",
+        "url": "https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM",
+        "source": "mercadolibre",
+        "image_url": "https://http2.mlstatic.com/D_NQ_NP_845364-MLU82007106867_012025-F.webp",
+        "description": null,
+        "date_published": null,
+        "date_scraped": "2025-04-09T21:52:38.888407",
+        "attributes": null,
+        "coordinates": null,
+        "posted_date": null,
+        "deal_type": "Продажа",
+        "utilities": "Не указано",
+        "hashtags": [
+          "#TestCycle",
+          "#Uruguay",
+          "#MercadoLibre",
+          "#Base64Test"
+        ]
+      }
+    }
+  ]
+}

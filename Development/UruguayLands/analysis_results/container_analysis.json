@@ -1,0 +1,10 @@
+{
+  "list_container": {
+    "selector": "ol.ui-search-layout",
+    "count": 1
+  },
+  "card_container": {
+    "selector": "li.ui-search-layout__item",
+    "count": 48
+  }
+}

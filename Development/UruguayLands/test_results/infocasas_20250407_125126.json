@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Terreno en venta en Canelones",
+    "price": "USD 65,000",
+    "location": "Canelones, Uruguay",
+    "area": "1200 m2",
+    "url": "https://example.com/infocasas/1",
+    "source": "InfoCasas"
+  },
+  {
+    "title": "Terreno en Piriápolis con vista al mar",
+    "price": "USD 110,000",
+    "location": "Piriápolis, Maldonado",
+    "area": "4500 m2",
+    "url": "https://example.com/infocasas/2",
+    "source": "InfoCasas"
+  }
+]

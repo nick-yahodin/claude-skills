@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Terreno en venta, 5000 m2 en Punta del Este",
+    "price": "USD 120,000",
+    "location": "Punta del Este, Maldonado",
+    "area": "5000 m2",
+    "url": "https://example.com/mercadolibre/1",
+    "source": "MercadoLibre"
+  },
+  {
+    "title": "Terreno en Rocha, cerca de la playa",
+    "price": "USD 85,000",
+    "location": "La Paloma, Rocha",
+    "area": "3200 m2",
+    "url": "https://example.com/mercadolibre/2",
+    "source": "MercadoLibre"
+  }
+]

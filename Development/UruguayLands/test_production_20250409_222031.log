@@ -1,0 +1,28 @@
+2025-04-09 22:20:31,783 - ProductionTest - INFO - Запуск теста производственного цикла
+2025-04-09 22:20:31,784 - app.listing_manager - INFO - Загружено 2 ID виденных объявлений из test_production_seen.json
+2025-04-09 22:20:31,784 - ProductionTest - INFO - STEP: init_parser - Инициализация парсера MercadoLibre
+2025-04-09 22:20:31,784 - parsers.mercadolibre - INFO - Инициализация парсера. Session ID: 75a374cb
+2025-04-09 22:20:31,784 - parsers.mercadolibre - INFO - Загружено 6 User-Agent из config/user_agents.txt
+2025-04-09 22:20:31,784 - ProductionTest - INFO - STEP: run_parser - Запуск парсера и сбор данных с сайта
+2025-04-09 22:20:31,784 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:20:31,786 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:20:31,786 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_098bc514fd
+2025-04-09 22:20:31,924 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:20:32,224 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:20:32,224 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:20:32,224 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:20:32,224 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:20:32,455 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:20:32,455 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:20:32,455 - app.parsers.mercadolibre - INFO - --- Запуск парсера mercadolibre (макс. страниц: 1, headless: False) ---
+2025-04-09 22:20:32,455 - app.parsers.mercadolibre - CRITICAL - Критическая ошибка в методе run парсера mercadolibre: 'MercadoLibreParser' object has no attribute '_create_browser_context'
+Traceback (most recent call last):
+  File "/Users/nick/Development/UruguayLands/app/parsers/base.py", line 381, in run
+    self.context = await self._create_browser_context()
+AttributeError: 'MercadoLibreParser' object has no attribute '_create_browser_context'
+2025-04-09 22:20:32,546 - app.parsers.mercadolibre - INFO - Браузер закрыт.
+2025-04-09 22:20:32,550 - app.parsers.mercadolibre - INFO - Playwright остановлен.
+2025-04-09 22:20:32,550 - app.parsers.mercadolibre - INFO - --- Парсер mercadolibre завершен за 0:00:00.095350 ---
+2025-04-09 22:20:32,550 - app.parsers.mercadolibre - INFO - Статистика: Обработано страниц=0, Найдено/Обработано объявлений=0, Ошибок=1
+2025-04-09 22:20:32,550 - ProductionTest - ERROR - ERROR in run_parser: Ошибка при запуске парсера
+2025-04-09 22:20:32,551 - ProductionTest - INFO - Тест завершен

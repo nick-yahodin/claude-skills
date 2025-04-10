@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-04-09T22:20:47.939192",
+  "test_id": "test_20250409_222047",
+  "config": {
+    "headless": false,
+    "max_pages": 1,
+    "send_to_telegram": false,
+    "telegram_delay": 5,
+    "max_retries": 3,
+    "delay_range": [
+      2,
+      5
+    ],
+    "state_file": "test_production_seen.json",
+    "smartproxy": {
+      "server": "http://gate.smartproxy.com:10005",
+      "user_pattern": "spgai22txz",
+      "password": "jtx6i24Jpb~ewWaFA9"
+    }
+  },
+  "steps": [
+    {
+      "name": "init_parser",
+      "time": "2025-04-09T22:20:47.939474",
+      "result": "Инициализация парсера MercadoLibre"
+    },
+    {
+      "name": "run_parser",
+      "time": "2025-04-09T22:20:47.939631",
+      "result": "Запуск парсера и сбор данных с сайта"
+    },
+    {
+      "name": "run_parser",
+      "time": "2025-04-09T22:21:03.144370",
+      "result": "Найдено 1 объявлений"
+    },
+    {
+      "name": "close_parser",
+      "time": "2025-04-09T22:21:03.144390",
+      "result": "Закрытие ресурсов парсера"
+    },
+    {
+      "name": "process_listings",
+      "time": "2025-04-09T22:21:05.147874",
+      "result": "Обработка 1 объявлений"
+    },
+    {
+      "name": "save_results",
+      "time": "2025-04-09T22:21:05.153055",
+      "result": "Сохранение промежуточных результатов"
+    },
+    {
+      "name": "send_telegram",
+      "time": "2025-04-09T22:21:05.154159",
+      "result": "Отправка в Telegram отключена в конфигурации"
+    },
+    {
+      "name": "final_report",
+      "time": "2025-04-09T22:21:05.154222",
+      "result": "Формирование итогового отчета"
+    }
+  ],
+  "errors": [],
+  "listings_found": 1,
+  "listings_processed": 1,
+  "images_found": 0,
+  "base64_images": 0,
+  "telegram_sent": 0,
+  "success": true,
+  "end_time": "2025-04-09T22:21:05.154227"
+}

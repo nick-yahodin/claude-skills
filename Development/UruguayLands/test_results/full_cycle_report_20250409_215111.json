@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-04-09T21:51:11.470337",
+  "total_urls": 3,
+  "success_count": 0,
+  "base64_images": [],
+  "results": [
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-688357290-venta-terreno-punta-del-este-braglia-1691-_JM",
+      "success": false,
+      "error": "'HttpUrl' object is not subscriptable"
+    },
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-747239401-venta-terreno-100000-m2-excelente-para-inversion-_JM",
+      "success": false,
+      "error": "'HttpUrl' object is not subscriptable"
+    },
+    {
+      "url": "https://articulo.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM",
+      "success": false,
+      "error": "'HttpUrl' object is not subscriptable"
+    }
+  ]
+}

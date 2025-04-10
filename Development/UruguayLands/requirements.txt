@@ -1,0 +1,12 @@
+# Основные зависимости
+pydantic>=2.0.0
+playwright>=1.40.0
+python-dotenv>=1.0.0
+playwright-stealth>=1.0.5
+
+# Зависимости для парсинга
+aiohttp>=3.9.1
+beautifulsoup4>=4.12.0
+
+# Вспомогательные библиотеки
+pydantic_settings>=2.0.0

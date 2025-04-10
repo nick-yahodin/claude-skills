@@ -1,0 +1,109 @@
+[
+  {
+    "id": null,
+    "title": "Terreno en venta",
+    "price": "Consultar precio",
+    "location": "Uruguay",
+    "area": "50.000 m² totales",
+    "url": "https://terreno.mercadolibre.com.uy/MLU-707333958-chacras-financiadas-de-5-hectareas-en-las-sierras-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=95dc11b8-4872-4ad0-817b-de45a5180eac",
+    "source": "mercadolibre",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_2X_927080-MLU81684642984_012025-E.webp",
+    "description": null,
+    "date_published": null,
+    "date_scraped": "2025-04-08T12:30:05.594170",
+    "attributes": null,
+    "coordinates": null,
+    "posted_date": null,
+    "deal_type": "Venta",
+    "utilities": null,
+    "hashtags": []
+  },
+  {
+    "id": null,
+    "title": "Terreno en venta",
+    "price": "Consultar precio",
+    "location": "Uruguay",
+    "area": "450 m² a 1076 m²",
+    "url": "https://terreno.mercadolibre.com.uy/MLU-707739404-barrio-abierto-en-ruta-21-los-ceibos-_JM#polycard_client=search-nordic&position=4&search_layout=grid&type=item&tracking_id=95dc11b8-4872-4ad0-817b-de45a5180eac",
+    "source": "mercadolibre",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_2X_845364-MLU82007106867_012025-E.webp",
+    "description": null,
+    "date_published": null,
+    "date_scraped": "2025-04-08T16:30:39.572970+00:00",
+    "attributes": {
+      "Superficie total": "450 m² a 1076 m²",
+      "Fecha de entrega": "Enero 2024"
+    },
+    "coordinates": null,
+    "posted_date": null,
+    "deal_type": "Venta",
+    "utilities": null,
+    "hashtags": []
+  },
+  {
+    "id": null,
+    "title": "Terreno en venta",
+    "price": "Consultar precio",
+    "location": "Uruguay",
+    "area": "1036 m² a 1036 m²",
+    "url": "https://terreno.mercadolibre.com.uy/MLU-690599348-lotes-en-design-village-barrio-privado-en-solanas-financiacion-del-100-a-sola-firma-_JM#polycard_client=search-nordic&position=5&search_layout=grid&type=item&tracking_id=95dc11b8-4872-4ad0-817b-de45a5180eac",
+    "source": "mercadolibre",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_2X_629935-MLU78263296174_082024-E.webp",
+    "description": null,
+    "date_published": null,
+    "date_scraped": "2025-04-08T16:30:42.840344+00:00",
+    "attributes": {
+      "Superficie total": "1036 m² a 1036 m²"
+    },
+    "coordinates": null,
+    "posted_date": null,
+    "deal_type": "Venta",
+    "utilities": null,
+    "hashtags": []
+  },
+  {
+    "id": null,
+    "title": "Terreno en venta",
+    "price": "Consultar precio",
+    "location": "Uruguay",
+    "area": "1000 m² a 2159 m²",
+    "url": "https://terreno.mercadolibre.com.uy/MLU-669535280-la-serena-barrio-jardin-en-punta-ballena-_JM#polycard_client=search-nordic&position=6&search_layout=grid&type=item&tracking_id=95dc11b8-4872-4ad0-817b-de45a5180eac",
+    "source": "mercadolibre",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_2X_627822-MLU74194369053_012024-E.webp",
+    "description": null,
+    "date_published": null,
+    "date_scraped": "2025-04-08T16:30:45.488435+00:00",
+    "attributes": {
+      "Superficie total": "1000 m² a 2159 m²",
+      "Fecha de entrega": "Julio 2025",
+      "Lotes": "234"
+    },
+    "coordinates": null,
+    "posted_date": null,
+    "deal_type": "Venta",
+    "utilities": null,
+    "hashtags": []
+  },
+  {
+    "id": null,
+    "title": "Terreno en venta",
+    "price": "Consultar precio",
+    "location": "Uruguay",
+    "area": "30000 m² a 30000 m²",
+    "url": "https://terreno.mercadolibre.com.uy/MLU-687936374-chacras-las-cuchillas-_JM#polycard_client=search-nordic&position=7&search_layout=grid&type=item&tracking_id=95dc11b8-4872-4ad0-817b-de45a5180eac",
+    "source": "mercadolibre",
+    "image_url": "https://http2.mlstatic.com/D_NQ_NP_2X_606877-MLU77745600968_072024-E.webp",
+    "description": null,
+    "date_published": null,
+    "date_scraped": "2025-04-08T16:30:48.087458+00:00",
+    "attributes": {
+      "Superficie total": "30000 m² a 30000 m²",
+      "Fecha de entrega": "Febrero 2025"
+    },
+    "coordinates": null,
+    "posted_date": null,
+    "deal_type": "Venta",
+    "utilities": null,
+    "hashtags": []
+  }
+]

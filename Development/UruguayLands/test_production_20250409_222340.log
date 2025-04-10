@@ -1,0 +1,67 @@
+2025-04-09 22:23:40,279 - ProductionTest - INFO - Запуск теста производственного цикла
+2025-04-09 22:23:40,280 - app.listing_manager - INFO - Загружено 3 ID виденных объявлений из test_production_seen.json
+2025-04-09 22:23:40,280 - ProductionTest - INFO - STEP: init_parser - Инициализация парсера MercadoLibre
+2025-04-09 22:23:40,280 - parsers.mercadolibre - INFO - Инициализация парсера. Session ID: 37e43559
+2025-04-09 22:23:40,280 - parsers.mercadolibre - INFO - Загружено 6 User-Agent из config/user_agents.txt
+2025-04-09 22:23:40,280 - ProductionTest - INFO - STEP: run_parser - Запуск парсера и сбор данных с сайта
+2025-04-09 22:23:40,280 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:23:40,283 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:23:40,283 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_9b10c58c17
+2025-04-09 22:23:40,416 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:23:40,773 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:23:40,773 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:23:40,773 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:23:40,773 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - --- Запуск парсера mercadolibre (макс. страниц: 1, headless: False) ---
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - Инициализация Playwright (headless=False)...
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - Модули обхода блокировок успешно импортированы
+2025-04-09 22:23:40,899 - app.parsers.mercadolibre - INFO - Используем отпечаток браузера из профиля: profile_132785ce93
+2025-04-09 22:23:41,000 - app.parsers.mercadolibre - INFO - Используем прокси: http://gate.smartproxy.com:10005
+2025-04-09 22:23:41,233 - app.recaptcha_solver - WARNING - AntiCaptcha API ключ не найден в переменных окружения (ANTICAPTCHA_KEY)
+2025-04-09 22:23:41,234 - app.recaptcha_solver - WARNING - 2Captcha API ключ не найден в переменных окружения (TWOCAPTCHA_KEY)
+2025-04-09 22:23:41,234 - app.recaptcha_solver - WARNING - Ни один сервис решения CAPTCHA не настроен. Решение CAPTCHA будет ограничено.
+2025-04-09 22:23:41,234 - app.parsers.mercadolibre - INFO - Инициализирован решатель CAPTCHA
+2025-04-09 22:23:41,593 - app.parsers.mercadolibre - INFO - Применены 4 скриптов обхода обнаружения
+2025-04-09 22:23:41,593 - app.parsers.mercadolibre - INFO - Playwright успешно инициализирован.
+2025-04-09 22:23:41,633 - app.parsers.mercadolibre - INFO - Проверка IP через https://httpbin.org/ip...
+2025-04-09 22:23:43,288 - app.parsers.mercadolibre - INFO - Текущий внешний IP (через прокси/прямой): 170.238.84.156
+2025-04-09 22:23:43,294 - app.parsers.mercadolibre - INFO - Обработка страницы 1/1 - https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:23:43,336 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:23:47,623 - app.parsers.mercadolibre - WARNING - Обнаружен признак блокировки: blocked
+2025-04-09 22:23:47,623 - app.parsers.mercadolibre - INFO - Пытаемся обойти блокировку...
+2025-04-09 22:23:47,660 - app.parsers.mercadolibre - INFO - CAPTCHA успешно решена
+2025-04-09 22:23:47,684 - app.parsers.mercadolibre - INFO - Страница https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta// успешно загружена.
+2025-04-09 22:23:48,750 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот списка: errors/list_debug_20250409_222347.png
+2025-04-09 22:23:48,771 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы списка: errors/list_html_20250409_222348.html
+2025-04-09 22:23:48,784 - app.parsers.mercadolibre - INFO - Попытка 1/3: Найдено 48 карточек по основному селектору 'li.ui-search-layout__item'
+2025-04-09 22:23:48,816 - app.parsers.mercadolibre - INFO - Достигнут лимит в 1 карточку для теста. Прерывание обработки карточек на этой странице.
+2025-04-09 22:23:48,816 - app.parsers.mercadolibre - INFO - Обработка карточек завершена. Всего: 48, успешно: 1, пропущено: 0, ошибок: 0
+2025-04-09 22:23:48,816 - app.parsers.mercadolibre - INFO - Извлечено 1 новых уникальных объектов Listing со страницы 1.
+2025-04-09 22:23:48,817 - app.parsers.mercadolibre - INFO - Найдено 1 объявлений на странице 1
+2025-04-09 22:23:54,702 - app.parsers.mercadolibre - INFO - Достигнут лимит страниц (1). Завершение парсинга.
+2025-04-09 22:23:54,702 - app.parsers.mercadolibre - INFO - Обработка деталей отключена. Возвращаем только найденные URL.
+2025-04-09 22:23:54,711 - app.parsers.mercadolibre - INFO - Контекст браузера закрыт.
+2025-04-09 22:23:54,780 - app.parsers.mercadolibre - INFO - Браузер закрыт.
+2025-04-09 22:23:54,784 - app.parsers.mercadolibre - INFO - Playwright остановлен.
+2025-04-09 22:23:54,784 - app.parsers.mercadolibre - INFO - --- Парсер mercadolibre завершен за 0:00:13.884762 ---
+2025-04-09 22:23:54,784 - app.parsers.mercadolibre - INFO - Статистика: Обработано страниц=1, Найдено/Обработано объявлений=1, Ошибок=0
+2025-04-09 22:23:54,784 - ProductionTest - INFO - STEP: run_parser - Найдено 1 объявлений
+2025-04-09 22:23:54,784 - ProductionTest - INFO - STEP: close_parser - Закрытие ресурсов парсера
+2025-04-09 22:23:56,785 - ProductionTest - INFO - STEP: process_listings - Обработка 1 объявлений
+2025-04-09 22:23:56,787 - app.listing_manager - INFO - Сохранено 4 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:23:56,787 - ProductionTest - INFO - STEP: save_results - Сохранение промежуточных результатов
+2025-04-09 22:23:56,787 - app.listing_manager - INFO - Сохранено 4 ID виденных объявлений в test_production_seen.json
+2025-04-09 22:23:56,787 - ProductionTest - INFO - STEP: send_telegram - Отправка в Telegram отключена в конфигурации
+2025-04-09 22:23:56,787 - ProductionTest - INFO - STEP: final_report - Формирование итогового отчета
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Итоговый отчет сохранен: test_results/production_report_20250409_222356.json
+2025-04-09 22:23:56,788 - ProductionTest - INFO - === СВОДКА ТЕСТИРОВАНИЯ ===
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Найдено объявлений: 1
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Обработано объявлений: 1
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Обнаружено обычных изображений: 0
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Обнаружено Base64-изображений: 0
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Отправлено в Telegram: 0
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Ошибок: 0
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Статус: Успешно
+2025-04-09 22:23:56,788 - ProductionTest - INFO - Тест завершен

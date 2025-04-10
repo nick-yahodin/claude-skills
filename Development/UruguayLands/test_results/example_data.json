@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Terreno en venta de 5000 m² en Punta del Este",
+    "price": "USD 120,000",
+    "location": "Punta del Este, Maldonado",
+    "area": "5000 m²",
+    "url": "https://www.mercadolibre.com.uy/example/1",
+    "source": "MercadoLibre",
+    "description": "Excelente terreno ubicado a minutos de la playa en Punta del Este, ideal para construir casa de verano o inversión.",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "title": "Terreno para construcción en La Paloma, 3200 m²",
+    "price": "USD 85,000",
+    "location": "La Paloma, Rocha",
+    "area": "3200 m²",
+    "url": "https://www.mercadolibre.com.uy/example/2",
+    "source": "MercadoLibre",
+    "description": "Terreno con vista al mar en zona de crecimiento en La Paloma.",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "title": "Campo de 12 hectáreas en Colonia",
+    "price": "USD 450,000",
+    "location": "Colonia del Sacramento, Colonia",
+    "area": "12 hectáreas",
+    "url": "https://www.gallito.com.uy/example/1",
+    "source": "Gallito",
+    "description": "Campo productivo con buena tierra y acceso a agua, ideal para agricultura o ganadería.",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "title": "Terreno en Montevideo, Carrasco, 800 m²",
+    "price": "USD 95,000",
+    "location": "Carrasco, Montevideo",
+    "area": "800 m²",
+    "url": "https://www.gallito.com.uy/example/2",
+    "source": "Gallito",
+    "description": "Terreno en exclusiva zona residencial de Montevideo, ideal para construcción de casa familiar.",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "title": "Terreno en venta en Canelones, 1200 m²",
+    "price": "USD 65,000",
+    "location": "Ciudad de la Costa, Canelones",
+    "area": "1200 m²",
+    "url": "https://www.infocasas.com.uy/example/1",
+    "source": "InfoCasas",
+    "description": "Excelente terreno en zona de crecimiento, cerca de servicios y con fácil acceso a la ciudad.",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "title": "Terreno en Piriápolis con vista al mar, 4500 m²",
+    "price": "USD 110,000",
+    "location": "Piriápolis, Maldonado",
+    "area": "4500 m²",
+    "url": "https://www.infocasas.com.uy/example/2",
+    "source": "InfoCasas",
+    "description": "Hermoso terreno con vista panorámica al mar en Piriápolis, ideal para proyecto turístico.",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "title": "Fracción de 3 hectáreas en José Ignacio",
+    "price": "USD 900,000",
+    "location": "José Ignacio, Maldonado",
+    "area": "3 hectáreas",
+    "url": "https://www.mercadolibre.com.uy/example/3",
+    "source": "MercadoLibre",
+    "description": "Exclusiva fracción de campo cerca de José Ignacio, con potencial para desarrollo turístico de lujo.",
+    "image_url": "https://example.com/image7.jpg"
+  },
+  {
+    "title": "Chacra de 5 hectáreas en Minas",
+    "price": "USD 180,000",
+    "location": "Minas, Lavalleja",
+    "area": "5 hectáreas",
+    "url": "https://www.infocasas.com.uy/example/3",
+    "source": "InfoCasas",
+    "description": "Hermosa chacra con arroyo, casa principal, galpón y árboles frutales. Ideal para producción y descanso.",
+    "image_url": "https://example.com/image8.jpg"
+  },
+  {
+    "title": "Terreno en Atlántida, 750 m²",
+    "price": "USD 42,000",
+    "location": "Atlántida, Canelones",
+    "area": "750 m²",
+    "url": "https://www.gallito.com.uy/example/3",
+    "source": "Gallito",
+    "description": "Terreno a 6 cuadras de la playa en Atlántida, zona tranquila y familiar.",
+    "image_url": "https://example.com/image9.jpg"
+  },
+  {
+    "title": "Campo ganadero de 45 hectáreas en Tacuarembó",
+    "price": "USD 320,000",
+    "location": "Tacuarembó, Tacuarembó",
+    "area": "45 hectáreas",
+    "url": "https://www.gallito.com.uy/example/4",
+    "source": "Gallito",
+    "description": "Campo con excelente pradera natural, tajamares, corrales y casa de personal. Ideal para ganadería.",
+    "image_url": "https://example.com/image10.jpg"
+  },
+  {
+    "title": "Terreno en Punta Ballena, 1800 m²",
+    "price": "USD 145,000",
+    "location": "Punta Ballena, Maldonado",
+    "area": "1800 m²",
+    "url": "https://www.infocasas.com.uy/example/4",
+    "source": "InfoCasas",
+    "description": "Terreno con vista al bosque y al mar en Punta Ballena, a minutos de Punta del Este.",
+    "image_url": "https://example.com/image11.jpg"
+  },
+  {
+    "title": "Terreno de 600 m² en Ciudad de la Costa",
+    "price": "USD 38,000",
+    "location": "Ciudad de la Costa, Canelones",
+    "area": "600 m²",
+    "url": "https://www.mercadolibre.com.uy/example/4",
+    "source": "MercadoLibre",
+    "description": "Terreno en barrio residencial, todos los servicios, a 10 minutos de Montevideo.",
+    "image_url": "https://example.com/image12.jpg"
+  },
+  {
+    "title": "Chacra de 2.5 hectáreas en Melo",
+    "price": "USD 75,000",
+    "location": "Melo, Cerro Largo",
+    "area": "2.5 hectáreas",
+    "url": "https://www.gallito.com.uy/example/5",
+    "source": "Gallito",
+    "description": "Chacra con casa, galpón, pozo de agua y luz eléctrica. Ideal para pequeño emprendimiento.",
+    "image_url": "https://example.com/image13.jpg"
+  },
+  {
+    "title": "Terreno en Parque del Plata, 450 m²",
+    "price": "USD 28,000",
+    "location": "Parque del Plata, Canelones",
+    "area": "450 m²",
+    "url": "https://www.infocasas.com.uy/example/5",
+    "source": "InfoCasas",
+    "description": "Terreno en balneario familiar, a 5 cuadras de la playa. Ideal para construir casa de veraneo.",
+    "image_url": "https://example.com/image14.jpg"
+  },
+  {
+    "title": "Campo forestal de 80 hectáreas en Rivera",
+    "price": "USD 560,000",
+    "location": "Rivera, Rivera",
+    "area": "80 hectáreas",
+    "url": "https://www.mercadolibre.com.uy/example/5",
+    "source": "MercadoLibre",
+    "description": "Campo con plantación de eucaliptus de 5 años. Inversión forestal con buen retorno.",
+    "image_url": "https://example.com/image15.jpg"
+  }
+] 

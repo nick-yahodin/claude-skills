@@ -1,0 +1,29 @@
+{
+  "http://user:pass@proxy1.example.com:8080": {
+    "failures": 3,
+    "success": 0,
+    "last_used": null,
+    "last_checked": "2025-04-09T22:19:07.104686",
+    "avg_response_time": null,
+    "country": null,
+    "is_active": true
+  },
+  "socks5://proxy2.example.com:1080": {
+    "failures": 2,
+    "success": 0,
+    "last_used": null,
+    "last_checked": "2025-04-09T22:19:07.104124",
+    "avg_response_time": null,
+    "country": null,
+    "is_active": true
+  },
+  "http://proxy3.example.com:8080": {
+    "failures": 3,
+    "success": 0,
+    "last_used": null,
+    "last_checked": "2025-04-09T22:19:07.104641",
+    "avg_response_time": null,
+    "country": null,
+    "is_active": true
+  }
+}

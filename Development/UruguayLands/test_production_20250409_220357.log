@@ -1,0 +1,39 @@
+2025-04-09 22:03:57,510 - ProductionTest - INFO - Запуск теста производственного цикла
+2025-04-09 22:03:57,511 - app.listing_manager - INFO - Файл состояния test_production_seen.json не найден. Начинаем с пустым списком.
+2025-04-09 22:03:57,511 - ProductionTest - INFO - STEP: init_parser - Инициализация парсера MercadoLibre
+2025-04-09 22:03:57,511 - parsers.mercadolibre - INFO - Инициализация парсера. Session ID: a969186d
+2025-04-09 22:03:57,511 - parsers.mercadolibre - INFO - Загружено 6 User-Agent из config/user_agents.txt
+2025-04-09 22:03:57,511 - ProductionTest - INFO - STEP: run_parser - Запуск парсера с max_pages=1
+2025-04-09 22:03:57,511 - app.parsers.mercadolibre - INFO - --- Запуск парсера mercadolibre (макс. страниц: 1, headless: True) ---
+2025-04-09 22:03:57,622 - app.parsers.mercadolibre - INFO - Использование стандартного имени пользователя для прокси: spgai22txz
+2025-04-09 22:03:57,622 - app.parsers.mercadolibre - INFO - Настройки прокси подготовлены. Сервер: http://gate.smartproxy.com:10005, User: spgai22txz
+2025-04-09 22:03:57,622 - app.parsers.mercadolibre - INFO - Запуск браузера Chromium (headless=True) с User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15
+2025-04-09 22:03:57,688 - app.parsers.mercadolibre - INFO - Браузер Chromium успешно запущен.
+2025-04-09 22:03:57,694 - app.parsers.mercadolibre - INFO - Контекст браузера создан.
+2025-04-09 22:03:57,705 - app.parsers.mercadolibre - INFO - Playwright Stealth применен к контексту.
+2025-04-09 22:03:57,732 - app.parsers.mercadolibre - INFO - Проверка IP через https://httpbin.org/ip...
+2025-04-09 22:03:59,287 - app.parsers.mercadolibre - INFO - Текущий внешний IP (через прокси/прямой): 168.196.21.28
+2025-04-09 22:03:59,289 - app.parsers.mercadolibre - INFO - Обработка страницы 1/1 - https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:03:59,335 - app.parsers.mercadolibre - INFO - Переход на URL (попытка 1/3): https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta//
+2025-04-09 22:04:02,096 - app.parsers.mercadolibre - INFO - Страница https://listado.mercadolibre.com.uy/inmuebles/terrenos/venta// успешно загружена.
+2025-04-09 22:04:02,452 - app.parsers.mercadolibre - INFO - Сохранен отладочный скриншот списка: errors/list_debug_20250409_220402.png
+2025-04-09 22:04:02,475 - app.parsers.mercadolibre - INFO - Сохранен HTML страницы списка: errors/list_html_20250409_220402.html
+2025-04-09 22:04:02,498 - app.parsers.mercadolibre - INFO - Попытка 1/3: Найдено 48 карточек по основному селектору 'li.ui-search-layout__item'
+2025-04-09 22:04:02,538 - app.parsers.mercadolibre - INFO - Достигнут лимит в 1 карточку для теста. Прерывание обработки карточек на этой странице.
+2025-04-09 22:04:02,539 - app.parsers.mercadolibre - INFO - Обработка карточек завершена. Всего: 48, успешно: 1, пропущено: 0, ошибок: 0
+2025-04-09 22:04:02,539 - app.parsers.mercadolibre - INFO - Извлечено 1 новых уникальных объектов Listing со страницы 1.
+2025-04-09 22:04:02,539 - app.parsers.mercadolibre - INFO - Найдено 1 объявлений на странице 1
+2025-04-09 22:04:04,872 - app.parsers.mercadolibre - INFO - Достигнут лимит страниц (1). Завершение парсинга.
+2025-04-09 22:04:04,872 - app.parsers.mercadolibre - INFO - Обработка деталей отключена. Возвращаем только найденные URL.
+2025-04-09 22:04:04,878 - app.parsers.mercadolibre - INFO - Контекст браузера закрыт.
+2025-04-09 22:04:04,907 - app.parsers.mercadolibre - INFO - Playwright остановлен.
+2025-04-09 22:04:04,908 - app.parsers.mercadolibre - INFO - --- Парсер mercadolibre завершен за 0:00:07.396332 ---
+2025-04-09 22:04:04,908 - app.parsers.mercadolibre - INFO - Статистика: Обработано страниц=1, Найдено/Обработано объявлений=1, Ошибок=0
+2025-04-09 22:04:04,908 - ProductionTest - INFO - STEP: run_parser - Найдено 1 объявлений
+2025-04-09 22:04:04,908 - ProductionTest - INFO - STEP: close_parser - Закрытие ресурсов парсера
+2025-04-09 22:04:06,909 - ProductionTest - INFO - STEP: process_listings - Обработка 1 объявлений
+2025-04-09 22:04:06,912 - ProductionTest - ERROR - ERROR in process_listings: Ошибка при обработке объявления 1/1
+2025-04-09 22:04:06,912 - ProductionTest - INFO - STEP: save_results - Сохранение промежуточных результатов
+2025-04-09 22:04:06,912 - ProductionTest - ERROR - ERROR in run_full_test: Критическая ошибка при выполнении теста
+2025-04-09 22:04:06,913 - ProductionTest - ERROR - Отчет об ошибке сохранен: test_results/error_report_20250409_220406.json
+2025-04-09 22:04:06,913 - ProductionTest - INFO - Тест завершен

@@ -1,0 +1,31 @@
+{
+  "url": {
+    "selector": "a",
+    "sample": "https://terreno.mercadolibre.com.uy/MLU-707333958-chacras-financiadas-de-5-hectareas-en-las-sierras-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=14d77b6b-e03a-410e-96f2-82c416e4468e"
+  },
+  "title": {
+    "selector": "h3",
+    "sample": "Chacras Financiadas De 5 Hectáreas En Las Sierras"
+  },
+  "price": {
+    "selector": ".andes-money-amount__fraction",
+    "sample": "7.800"
+  },
+  "currency": {
+    "selector": ".andes-money-amount__currency-symbol",
+    "sample": "US$"
+  },
+  "location": {
+    "selector": "span.poly-component__location",
+    "sample": "Maldonado, Aiguá"
+  },
+  "area": {
+    "selector": "li.poly-attributes-list__item",
+    "sample": "50.000 m² totales"
+  },
+  "image": {
+    "selector": "img.poly-component__picture",
+    "attribute": "src",
+    "sample": "https://http2.mlstatic.com/D_NQ_NP_2X_927080-MLU81684642984_012025-E.webp"
+  }
+}
