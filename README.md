@@ -1,13 +1,57 @@
-# claude-skills
+# UruguayLands
 
-A collection of Claude Code skills.
+Парсер земельных участков в Уругвае с MercadoLibre → Telegram.
 
-## Skills
+## Архитектура
 
-| Skill | Description | Source |
-|-------|-------------|--------|
-| [canvas-design](skills/canvas-design/SKILL.md) | Design and build canvas-based UI with visual precision | [anthropics/skills@canvas-design](https://github.com/anthropics/skills) |
-| [frontend-design](skills/frontend-design/SKILL.md) | Design principles, anti-patterns, and context gathering protocol for frontend work | [pbakaus/impeccable@frontend-design](https://github.com/pbakaus/impeccable) |
-| [polish](skills/polish/SKILL.md) | Final quality pass — fixes alignment, spacing, consistency, and micro-detail issues before shipping | [pbakaus/impeccable@polish](https://github.com/pbakaus/impeccable) |
-| [sleek-design-mobile-apps](skills/sleek-design-mobile-apps/SKILL.md) | Mobile app design with sleek, modern aesthetics | [sleekdotdesign/agent-skills@sleek-design-mobile-apps](https://github.com/sleekdotdesign/agent-skills) |
-| [tailwind-design-system](skills/tailwind-design-system/SKILL.md) | Build and maintain Tailwind CSS design systems | [wshobson/agents@tailwind-design-system](https://github.com/wshobson/agents) |
+**API-first подход**: вместо Playwright используется публичный API MercadoLibre — быстрее, надёжнее, без блокировок.
+
+```
+main.py          → точка входа, CLI
+scraper.py       → поиск + детали через API
+duplicate_checker.py → фильтрация дубликатов  
+telegram_bot.py  → отправка в Telegram
+models.py        → модель Listing (Pydantic)
+config.py        → конфигурация из .env
+```
+
+## Установка
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+# Заполнить .env своими данными
+```
+
+## Использование
+
+```bash
+# Полный цикл
+python main.py
+
+# Только парсинг, без Telegram
+python main.py --no-send
+
+# С фильтром по цене
+python main.py --min-price 5000 --max-price 50000
+
+# Экспорт в файл
+python main.py --export results.json --no-send
+
+# Максимум 10 объявлений, режим отладки
+python main.py --max 10 --debug
+```
+
+## Что извлекается
+
+| Поле | Источник |
+|------|----------|
+| Название, цена, валюта | API search |
+| Координаты GPS | API items |
+| Все фото (до 20) | API items |
+| Площадь, цена за м² | API attributes |
+| Коммуникации | API attributes + описание |
+| Зонирование | API attributes + описание |
+| Продавец | API items |
+| Дата публикации | API items |
+| Описание | API description |
